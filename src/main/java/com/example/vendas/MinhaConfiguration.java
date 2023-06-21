@@ -9,5 +9,9 @@ public class MinhaConfiguration {
     public String applicationName(){
         return "sistema de vendas";
     }
+    @Bean(name = "outraConfiguracao")
+    public String outraConfiguracao(){
+        return "Sistema de vendas";
+    }
 
 }
